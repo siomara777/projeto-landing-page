@@ -10,8 +10,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(90, 228, 238);
+    background-color: rgb(116, 239, 248);
     /* border: 3px solid black */
+    
+    
 }
 
 div {
@@ -40,25 +42,20 @@ li {
 
 a {
     color: #191942;
-
     font-size: 25px;
     font-family: 'Franklin Gothic Medium';
 }
 
 a:hover {
     color: white;
-    transition: 0.3s all;
-
+    transition: 0.4s all;
 }
-
-
 
 #increva-se-btn {
     border: 3px solid #191942;
-    padding: 10px;
+    padding: 8px;
     border-radius: 15px;
 }
-
 
 #increva-se-btn:hover {
     color: aliceblue;
@@ -84,7 +81,6 @@ aside{
 
 article {
     width: 620px;
-
 
 }
 
