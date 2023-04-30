@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(116, 239, 248);
+    /* border: 3px solid black */
+    
+    
+}
+
+div {
+    height: 10vh;
+}
+
+body {
+
+    background-color: rgb(90, 228, 238);
+    color: #191942;
+    border: 3px;
+    font-family: poppinsregular;
+    margin: 0 auto;
+    /* padding: 10px; */
+    /* border: 3px solid red */
+}
+
+section {
+    /* border: 3px solid lime */
+}
+
+li {
+    display: inline-block;
+    margin: 25px;
+}
+
+a {
+    color: #191942;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+a:hover {
+    color: white;
+    transition: 0.4s all;
+}
+
+#increva-se-btn {
+    border: 3px solid #191942;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#increva-se-btn:hover {
+    color: aliceblue;
+    background-color: #191942
+}
+
+aside {
+    font: 700;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 66px;
+    padding: 88px;
+}
+aside{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+}
+
+article {
+    width: 620px;
+
+}
+
+footer {
+    /* border: 3px solid rgb(247, 19, 194); */
+    background-color: #020222;
+    height: 10vh;
+    image-rendering: auto;
+}
