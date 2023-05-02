@@ -11,49 +11,128 @@
 </head>
 
 <body>
-    <header>
+    <header class="cabecalho">
         <figure>
-            <img src="./fotos/f4life.png" alt="logo" height="85px">
+            <img class="cabecalho-imagem" src="./fotos/f4life.png" alt="logomarca da empresa" height="85px"
+                width="222px">
         </figure>
         <nav>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Para pais</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Agendar visita</a></li>
+            <ul class="cabecalho-menu">
+                <a class="cabecalho-menu-item">Sobre</a>
+                <a class="cabecalho-menu-item">Para pais</a>
+                <a class="cabecalho-menu-item">Fale Conosco</a>
+
+                <a class="cabecalho-menu-item" id="increva-se-btn">Agendar visita</a>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="moradia Compartilhada">
-            <article>
-                <h1 class="titulo">Ouer adiar o sonho de morar sozinho?</h1>
-                <h1 class="titulo">Então venha para F4life.</h1>
-                </h1>
-                <p>Aqui voçê compartilha sua moradia, podendo viver e se divertir com outras pessoas.</p>
+    <main class="Conteudo">
+        <section class="Conteudo-principal">
+            <div class="Conteudo-principal-titulo">
+                <h1 class="titulo">Quer adiar o sonho de morar sozinho? Então venha para F4Life</h1>
 
-            </article>
-            <article>
-                <figure>
-                    <img src="./fotos/foto 1.jpg" alt="foto 1" height="200px">
+                <br>
+                <aside class="Conteudo-principal-sub-titulo">
+                    <p class="Conteudo-principal-sub-titulo-1">Aqui voçê compartilha sua moradia, podendo viver, estudar
+                        e se divertir com outras pessoas.</p>
+                    <!-- <p class="Conteudo-principal-sub-titulo-2"> estudar e se divertir com outras pessoas.</p> -->
+                </aside>
+                <br>
+            </div>
+            <article class="figuras">
+                <figure class="Conteudo-principal-imagem">
+                    <img class="imagem-1" src="./fotos/Colegas na sala.jpg" alt="Colegas na sala" height="430px"
+                        width="550px">
+                    <!-- <img class="imagem-2" src="./fotos/colegas-estudando.jpg" alt="Colegas estudando" height="330px"
+                        width="350px"> -->
+                    <img class="imagem-3" src="./fotos/Colegas na diversão.png" alt="Colegas na diversão" height="430px"
+                        width="550px">
                 </figure>
             </article>
+
+
+        </section>
+
+        <section class="Conteudo-Sobre">
+            <h1 class="Cont-Sobre-Titulo">Sobre a F4Life</h1>
+
+            <p class="Conteudo-paragrafo"> A F4Life oferece moradia compartilhada para universitários de todo o tipo
+                de curso de graduação e pós-graduação, traz a comodidade de residir perto da universidade, com
+                espaços amplos, compartilhando piscina, academia, cozinha coletiva e área projetada para o estudo.
+            </p>
+        </section>
+
+        <section class="Conteudo-Pais">
+
+            <h1 class="Cont-Pais-Titulo">Para mães e pais</h1>
+            <p class="Conteudo-Pais-paragrafo">A F4Life busca entender profundamente as necessidades dos jovens
+                estudantes e, ao mesmo tempo, dos pais. Para isso, a segurança vem em primeiro lugar. A F4Life possui
+                regras, contam com câmaras em todos os ambientes compartilhados, controle de acesso e profissionais
+                especialazados no suporte 24h por dia.</p>
+
+        </section>
+        <section>
+            <div class="Formulario">
+                <form action="">
+                    <fieldset>
+                        <legend><b>Fale Conosco</b></legend>
+
+                        <br>
+                        <div class="InputForm">
+                            <input type="text" nome="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelInput">Nome completo</label>
+                        </div>
+                        <br>
+                        <div class="InputForm">
+                            <input type="text" nome="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div>
+                        <br>
+                        <div class="InputForm">
+                            <input type="text" nome="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelInput">Email</label>
+                        </div>
+                        <br>
+
+                        <div class="InputForm">
+                            <input type="text" nome="endereco" id="endereco" class="inputUser" required>
+                            <label for="endereco" class="labelInput">Endereço</label>
+                        </div>
+                        <br>
+                        <div class="InputForm">
+                            <input type="text" nome="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelInput">Cidade</label>
+                        </div>
+                        
+                        <br>
+                        <div class="InputForm">
+                            <input type="text" nome="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelInput">Estado</label>
+                        </div>
+                        <br>
+                        <input type="submit" nome="submit" id="submit">
+
+                        <br><br>
+
+                    </fieldset>
+
+                </form>
+            </div>
+
         </section>
 
 
+
     </main>
-    <footer>
-        <div class="footer-bar"> 
-            <img id="logo" src="./fotos/f4life.png" alt="logo" height="25px">
-            <ul class="social-media">
-                <li><a href=""><img src="./fotos/facebook.png" alt="facebook" height="25px"></a></li>
-                <li><a href=""><img src="./fotos/instagram-icone-icon-1.png" alt="instagram" height="25px"></a></li>
+    <footer></footer>
+    <div class="footer-rod-pé">
 
+        <ul class="social-media">
+            <a href=""><img src="./fotos/instagram-icone-icon-1.png" alt="instagram" height="35px"></a>
+            <a href=""><img src="./fotos/facebook.png" alt="facebook" height="35px"></a>
+        </ul>
 
-            </ul>
-
-
-        </div>
+    </div>
     </footer>
 
 
