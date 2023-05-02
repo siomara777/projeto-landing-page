@@ -31,6 +31,9 @@
 }
 
 .cabecalho-menu-item {
+    color: #191942;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
 
 }
 
@@ -110,11 +113,11 @@ body {
     margin-top: 44px;
 }
 
-.figuras {
+.Conteudo-principal-imagem {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    /* justify-content: space-between; */
     gap: 88px;
 
 }
@@ -127,6 +130,8 @@ body {
     display: flex;
     margin-top: 85px;
     padding: 55px;
+    display: flex;
+    flex-direction: row;
 }
 
 .Cont-Sobre-Titulo {
@@ -230,9 +235,11 @@ text-align: center;
     /* border: 3px solid rgb(247, 19, 194); */
     /* background-color: #020222; */
     height: 10vh;
-    display: flex;
-    background: linear-gradient(88.15deg, #23a2a6 16.62%, #1a656e 77.61%)
+    /* display: flex; */
+    background: linear-gradient(88.15deg, #23a2a6 16.62%, #1a656e 77.61%);
+    
 }
+
 
 .social-media {
     flex-direction: row;
@@ -242,33 +249,4 @@ text-align: center;
     align-items: end;
     justify-content: space-between;
     display: flex;
-
-
-aside {
-    font: 700;
-    align-items: center;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    margin-top: 66px;
-    padding: 88px;
-}
-aside{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 25px;
-}
-
-article {
-    width: 620px;
-
-}
-
-footer {
-    /* border: 3px solid rgb(247, 19, 194); */
-    background-color: #020222;
-    height: 10vh;
-    image-rendering: auto;
 }
