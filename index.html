@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="./styde.css">
 
+    <script defer src="./Javascript.js"></script>
+
     <title>Moradia Compartilhada</title>
 </head>
 
@@ -19,22 +21,28 @@
         </figure>
         <nav>
             <ul class="cabecalho-menu">
-                <a href="#sobre"class="cabecalho-menu-item">Sobre</a>
-                <a href="#para-pais"class="cabecalho-menu-item">Para pais</a>
-                <a href="#contato"class="cabecalho-menu-item">Contato</a>
-                <a href="#agendar-visitas"class="cabecalho-menu-item" id="increva-se-btn">Agendar visita</a>
+                <a href="#inicio" class="cabecalho-menu-item">Início</a>
+                <a href="#sobre" class="cabecalho-menu-item">Sobre</a>
+                <a href="#galeria" class="cabecalho-menu-item">Galeria</a>
+
+                <!-- <a href="#contato" class="cabecalho-menu-item">Conheça</a> -->
+                <a href="#para-pais" class="cabecalho-menu-item">Para pais</a>
+
+                <a href="#agendar-visita" class="cabecalho-menu-item" id="increva-se-btn">Agendar visita</a>
             </ul>
         </nav>
     </header>
     <main class="conteudo">
         <section class="conteudo-principal">
-            <div class="conteudo-principal-titulo">
+            <div id="inicio" class="conteudo-principal-titulo">
                 <!-- <article> -->
-                <h1 class="titulo">Ouer adiar o sonho de morar sozinho? Então venha para F4life </h1>
+                <h1 id="inicio" class="titulo">Quer adiar o sonho de morar sozinho? Então venha para F4life </h1>
                 <!-- <h1 class="titulo">Então venha para F4life.</h1> -->
                 </h1>
                 <br>
+                <br>
                 <aside class="cont-princ-sub-titulo">
+                    <b></b>
                     <p class="cont-princ-sub-titulo-1">Aqui voçê compartilha sua moradia, podendo viver e se divertir
                         com outras pessoas.</p>
                 </aside>
@@ -43,68 +51,150 @@
             <!-- </article> -->
             <article class="figuras">
                 <figure class="conteudo-principal-imagem">
-                    <img class="imagem-1" src="./fotos/foto 1.jpg" alt="colegas na sala" height="430px" width="550px">
+                    <img class="imagem-1" src="./fotos/Colegas na sala.jpg" alt="colegas na sala" height="430px"
+                        width="550px">
                     <img class="imagem-2" src="./fotos/Colegas na diversão.png" alt="colegas na diversão" height="430px"
-                        width="550px
-                    ">
+                        width="550px">
                 </figure>
             </article>
         </section>
+
         <section id="sobre" class="conteudo-sobre">
-            <h1 class="Cont-Sobre-">Sobre a F4life</h1>
-            <p class="Cont-paragrafo-1">A F4Life oferece moradia compartilhada para universitários de todo o tipo
+            <div class="cont-Sobre">
+                <h1 >Sobre a F4life</h1>
+            </div>
+            
+            <p class="cont-paragrafo-1">A F4Life oferece moradia compartilhada para universitários de todo o tipo
                 de curso de graduação e pós-graduação, traz a comodidade de residir perto da universidade, com
                 espaços amplos, compartilhando piscina, academia, cozinha coletiva e área projetada para o estudo.</p>
+        </section>
+
+        <section id="galeria" class="galeria">
+            <div>
+                <h1>Galeria</h1>
+            </div>
+        </section>
+
+        <section class="imagem-galeria">
+            <article>
+                <figure class="imagem-galeria-area-externa">
+                    <img src="./fotos/f4life.png" alt="logomarca da empresa" height="400px" width="450px">
+                    <img src="./fotos/moradia1.jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/moradia3.jpg" alt="moradia" height="400px" width="450">
+                </figure>
+            </article>
+
+            <article>
+                <figure class="imagem-galeria-area-externa">
+                    <img src="./fotos/moradia4.jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/moradia5.jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/moradia2.jpg" alt="moradia" height="400px" width="450">
+                </figure>
+            </article>
+
+            <article>
+                <figure class="imagem-galeria-area-externa">
+                    <img src="./fotos/recep.jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/sala2.jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/sala5.jpg" alt="moradia" height="400px" width="450">
+                </figure>
+            </article>
+
+            <article>
+                <figure class="imagem-galeria-area-externa">
+                    <img src="./fotos/quarto.jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/quarto2.jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/quarto3.jpg" alt="moradia" height="400px" width="450">
+                </figure>
+            </article>
+
+            <article>
+                <figure class="imagem-galeria-area-externa">
+                    <img src="./fotos/cozinha-moradia-estudantil..jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/cozinha2.jpg" alt="moradia" height="400px" width="450">
+                    <img src="./fotos/Colegas 1.jpg" alt="moradia" height="400px" width="450">
+                </figure>
+            </article>
 
         </section>
-        <section class="conteudo-pais">
-            <h1 class="cont-Pais-Titulo">Para mães e pais</h1>
-<p class="cont-paragrafo-2">A F4Life busca entender profundamente as necessidades dos jovens
-    estudantes e, ao mesmo tempo, dos pais. Para isso, a segurança vem em primeiro lugar. A F4Life possui
-    regras, contam com câmaras em todos os ambientes compartilhados, controle de acesso e profissionais
-    especialazados no suporte 24h por dia.</p>
+        <section>
+            <div class="moradia">
+                <h1 class="moradia">MORADIA COMPARTILHADA </h1>
+                <h1> POUCAS UNIDADES DISPONÍVEIS! </h1>
+                <h1>Entre em contato agora e faça sua reserva!</h>
+            </div>
         </section>
         <section>
-            <h1 class="cont-fale-conosco">Fale Conosco</h1>
+            <div id="para-pais" class="conteudo-pais">
+                <h1 class="cont-Pais-Titulo">Para mães e pais</h1>
+            </div>
+            <p class="cont-paragrafo-2">A F4Life busca entender profundamente as necessidades dos jovens
+                estudantes e, ao mesmo tempo, dos pais. Para isso, a segurança vem em primeiro lugar. A F4Life possui
+                regras, contam com câmaras em todos os ambientes compartilhados, controle de acesso e profissionais
+                especialazados no suporte 24h por dia.</p>
+        </section>
+
+        <section class="agenda">
+            <h1 id="agendar-visita" class="agendar-visita">Agende uma visita</h1>
+            <p class="agendar">Antes de sua visita, nossa equipe entrará em contato para confirmar. Lembre-se que a
+                F4Life é para estudantes, ok?</p>
+        </section>
+
+        <section>
+            <div class="paragrafo-agenda">
+                <section>
+                    <h1>Olá!</h1>
+                    <h1> Boa visita!</h1>
+                </section>
+
+            </div>
+        </section>
+
+        <section class="formul">
+
             <div class="Formulario">
+
+
                 <form action="">
                     <fieldset>
-                        <legend class="fale"><b>Fale Conosco</b></legend>
+                        <legend class="fale"><b></b></legend>
 
                         <br>
                         <div class="InputForm">
                             <input type="text" nome="nome" id="nome" class="inputUser" required>
-                            <label for="nome" class="labelInput">Nome completo</label>
+                            <label for="nome" class="labelInput">Nome completo:</label>
                         </div>
                         <br>
                         <div class="InputForm">
                             <input type="text" nome="telefone" id="telefone" class="inputUser" required>
-                            <label for="telefone" class="labelInput">Telefone</label>
+                            <label for="telefone" class="labelInput">Telefone:</label>
                         </div>
                         <br>
                         <div class="InputForm">
                             <input type="text" nome="email" id="email" class="inputUser" required>
-                            <label for="email" class="labelInput">Email</label>
+                            <label for="email" class="labelInput">E-mail:</label>
                         </div>
                         <br>
 
                         <div class="InputForm">
                             <input type="text" nome="endereco" id="endereco" class="inputUser" required>
-                            <label for="endereco" class="labelInput">Endereço</label>
+                            <label for="endereco" class="labelInput">Assunto:</label>
                         </div>
                         <br>
                         <div class="InputForm">
                             <input type="text" nome="cidade" id="cidade" class="inputUser" required>
-                            <label for="cidade" class="labelInput">Cidade</label>
+                            <label for="cidade" class="labelInput">Mensagem:</label>
                         </div>
-                        
                         <br>
-                        <div class="InputForm">
+                        <!-- <div class="InputForm">
                             <input type="text" nome="estado" id="estado" class="inputUser" required>
                             <label for="estado" class="labelInput">Estado</label>
+                        </div> -->
+
+
+                        <div class="botao">
+                            <button class="botao" id="increva-se-btn" type="button"> Enviar</button>
                         </div>
-                        <br>
-                        <input type="submit" nome="submit" id="submit">
 
                         <br><br>
 
@@ -114,16 +204,35 @@
             </div>
 
         </section>
+        <section>
+            <!-- <br>
+            <br>
+            <br> -->
+            <!-- <p>Apartamento</p> -->
+        </section>
+
+
     </main>
     <footer>
+
         <div class="footer-rod-pe">
+            <h2>Siga a F4Life</h2>
 
             <!-- <img id="logo" src="./fotos/f4life.png" alt="logo" height="25px"> -->
             <ul class="social-media">
-                <a target="_blank" href="https://www.facebook.com/"><img src="./fotos/facebook.png" alt="facebook" height="35px"></a>
-                <a target="_blank" href="https://www.instagram.com/"href=""><img src="./fotos/instagram-icone-icon-1.png" alt="instagram" height="35px"></a>
-            </ul>
 
+                <a target="_blank" href="https://www.instagram.com/" href=""><img
+                        src="./fotos/instagram-icone-icon-1.png" alt="instagram" height="45px"></a>
+
+                <a target="_blank" href="https://www.twitter.com/" href=""><img src="./fotos/twitter.jpg"
+                        alt="instagram" height="45px"></a>
+
+                <a target="_blank" href="https://www.whatsapp.com/" href=""><img src="./fotos/whatsapp.jpg"
+                        alt="instagram" height="45px"></a>
+                <a target="_blank" href="https://www.facebook.com/"><img src="./fotos/facebook2.png.jpg" alt="facebook"
+                        height="45px"></a>
+
+            </ul>
 
         </div>
     </footer>
@@ -132,5 +241,3 @@
 </body>
 
 </html>
-
-
