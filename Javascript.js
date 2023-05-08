@@ -1,13 +1,19 @@
 
-const btn = document.querySelector(".botao button")
+const formulario = document.querySelector(".Formulario form")
 
 
-btn.addEventListener("click", ()=>{
+formulario.addEventListener("submit", ( event ) => {
+    event.preventDefault() 
 
-const inputs = document.querySelectorAll(".inputUser")
-inputs.forEach((input)=>{
-input.value=""
+    const inputs = document.querySelectorAll(".inputUser")
+    inputs.forEach((input) => {
+        input.value = ""
+
+
+    })
+    alert("Muito obridaga pela preferência")
 
 })
 
-})
+
+
